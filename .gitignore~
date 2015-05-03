@@ -10,7 +10,7 @@
 /ivy*
 /eclipse
 /out
-LinkSharing/test
+
 # default HSQL database files for production mode
 /prodDb.*
 
@@ -35,12 +35,12 @@ LinkSharing/test
 /web-app/WEB-INF/classes
 
 # "temporary" build files
-LinkSharing/target
+/target
 
 # other
-*/*.iws
-*/*.iml
-LinkSharing/.idea
+*.iws
+*.iml
+.idea
 cobertura.ser
 
 .DS_Store
