@@ -13,7 +13,7 @@ class User {
     Date dateUpdated
     static hasMany = [subscription:Subscription,topic:Topic,resource:Resource,readingItem:ReadingItem,resourceRating:ResourceRating]
     static constraints = {
-        email.call(unique: true, blank: false)
-        username.call( unique: true)
+        email(unique: true, blank: false)
+        username( unique: true)
     }
 }
